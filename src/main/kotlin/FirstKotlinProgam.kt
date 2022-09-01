@@ -6,5 +6,5 @@ Filename: FirstKotlinProgman.kt
 */
 print ("Hello World")
 print ("Hello World!!!")
-    print ("Hellow World!!!!!!!!!")
+    print ("Hello World!!!!!!!!!")
 }
