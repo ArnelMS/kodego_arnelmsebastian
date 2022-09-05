@@ -1,5 +1,6 @@
 fun main() {
-    var itemnumber: Int = 3
+    var itemnumber: Int = 2
+
 
 
     when (itemnumber) {
