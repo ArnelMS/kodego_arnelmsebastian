@@ -14,14 +14,18 @@ fun main() {
     println(string2.lowercase())
     //string uppercase/lowercase
     println(string2.lowercase())
+    println()
     //startswith
     println(string2.startsWith("tha"))
     //endswith
     println(string2.endsWith("too!"))
     //concatenate
     println(string1 + " " + string2)
+    println()
     //substring
-    println(string1.substring(6, 10))
+    println(string1.substring(11, 14))
+
+    println()
     //replace
-    println(string1.replace("this","that"))
+    println(string1.replace("This","That"))
 }

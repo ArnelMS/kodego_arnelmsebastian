@@ -1,5 +1,5 @@
 fun main (){
-    var number1 : Int = 21
+    var number1 : Int = 10
     var number2 : Int = 21
 
     var answer : Int = number1 % number2
