@@ -1,7 +1,7 @@
 fun main() {
     //while loop
     //init (initialization)
-    var ctr: Int = 1
+    var ctr: Int = 5
 
     //condition
     while (ctr <= 5) {

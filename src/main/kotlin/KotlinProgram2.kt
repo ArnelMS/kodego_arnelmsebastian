@@ -7,6 +7,7 @@ fun main() {
     println(string1.length)
     println(string2.length)
     //string equality
+    println()
     println(string1 == string2)
     //string uppercase/lowercase
     println(string2.uppercase())

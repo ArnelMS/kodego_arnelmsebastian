@@ -1,6 +1,6 @@
 fun main() {
 
-    var grade: Int = 90
+    var grade: Int = 100
 
     if ((grade >= 96) && (grade <= 100)) {
         println("1.00")
@@ -12,25 +12,26 @@ fun main() {
         println("5.00")
     } else {
         println("Invalid grade")
-
-        var gender: String = "M"
-        if (gender == "M") {
-            println("Male")
-        } else if (gender == "F") {
-            println("Female")
-        } else {
-
-//
-//    //Range
-//    var idNumber : Int = 1
-//
-//    //True "&& = Always True"
-//    if ((idNumber >= 1 )&&(idNumber<=3)){
-//        println("Valid id number")
-//        println("SUCCESS!!!!!")
-//    }
-
-            println("Line Ends")
-        }
     }
+    var gender: String = "M"
+    if (gender == "M") {
+        println("Male")
+    }else if (gender == "F") {
+        println("Female")
+    } else {
+        println("Invalid choice")
+    }
+    //Range
+        var idNumber: Int = 4
+
+        //True "&& = Always True"
+        if ((idNumber >= 1) && (idNumber <= 3)) {
+            println("Valid id number")
+            println("Success!")
+        }else{
+    println("Invalid id number")}
+
+    println()
+    println("--Line Ends--")
+
 }
