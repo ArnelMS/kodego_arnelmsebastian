@@ -18,9 +18,10 @@ fun main() {
         ctr++
     }
     //Display new array values'
-    var ctr2 : Int = 0
-    while (ctr2 < names.size)
+    var ctr2: Int = 0
+    while (ctr2 < names.size) {
         println(names[ctr2])
 
-    ctr2++
+        ctr2++
+    }
 }

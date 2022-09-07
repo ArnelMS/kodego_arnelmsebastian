@@ -12,12 +12,12 @@ fun main(){
     //array size
     println(numbers.size)
 
-    println("*******************")
+    println("********** 1 *********")
     println(names[0])
     println(names[1])
     println(names[2])
 
-    println("*******************")
+    println("********* 2 **********")
     names[1] = "Matthew"
     //OR names.set(11, "Matthew"}
 
