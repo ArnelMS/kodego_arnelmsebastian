@@ -15,27 +15,20 @@ fun main() {
     //ENTER AMOUNT
     print("Please enter amount: ")
     var amount: Int = readln().toInt()
+    var answer: String = "yes"
 
-    //ADD NEW AMOUNT?
-    println("Do you want to add another amount?")
-    var answer: String = readln().toString()
+    while (answer == "yes") {
 
-    // YES OR NO
-    if (answer == "Yes" || answer == "yes") {
-        print("Enter new amount: ")
-        var newamount: Int = readln().toInt()
-        amount = amount + newamount}
-
-//    var condition: Boolean = false
-//
-//    while (condition) {
-//        for (New in 1..3) {
-//            print("Enter new amount: ")
-//            var newamount: Int = readln().toInt()
-//            amount = amount + newamount
-
-
-
+        //ADD NEW AMOUNT?
+        print("Do you want to add another amount?")
+        answer = readln()
+        // YES OR NO
+        if (answer == "Yes" || answer == "yes") {
+            print("Enter new amount: ")
+            var newamount: Int = readln().toInt()
+            amount = amount + newamount
+        }
+    }
     println("Total amount is: $amount")
 
     print("Divide by how many? ")
