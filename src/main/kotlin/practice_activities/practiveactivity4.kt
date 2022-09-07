@@ -20,26 +20,43 @@ fun main() {
     var ten: Double = 0.10
     var fifteen: Double = 0.15
     var twenty: Double = 0.20
-    var subtotal1 : Double = price * zero
+
+    var subtotal1 : Double = (price * zero)
     var subtotal2 : Double = price * five
     var subtotal3 : Double = price * ten
     var subtotal4 : Double = price * fifteen
     var subtotal5 : Double = price * twenty
 
+    var netprice1 : Double = price - subtotal1
+    var netprice2 : Double = price - subtotal2
+    var netprice3 : Double = price - subtotal3
+    var netprice4 : Double = price - subtotal4
+    var netprice5 : Double = price - subtotal5
+
     if ((price >= 0) && (price <= 10000)) {
         println("$subtotal1")
+        println("Net Price is $netprice1")
     } else if ((price >= 10001) && (price <= 20000)) {
         println("$subtotal2")
+        println("Net Price is $netprice2")
     } else if ((price >= 20001) && (price <= 50000)) {
         println("$subtotal3")
+        println("Net Price is $netprice3")
     } else if ((price >= 50001) && (price <= 100000)) {
         println("$subtotal4")
+        println("Net Price is $netprice4")
     } else if ((price > 100000)) {
         println("$subtotal5")
+        println("Net Price is $netprice5")
     } else {
         println("Invalid Amount")
     }
+//    var netprice: Double = 0.00
+//    println("Net Price is netprice")
 
+
+
+    }
 //    if ((
 //    println("Net Price is $netprice")
 //
@@ -53,4 +70,3 @@ fun main() {
     //println (("$discount * $price"))
 
 
-}
