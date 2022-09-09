@@ -9,10 +9,11 @@ fun main(){
     var numbers = arrayOf<Int>(2, 3, 10, 12, 9)
     println(numbers[4])
 
+    println("********** 1 *********")
     //array size
     println(numbers.size)
+    println("@@@@@@@@@@@@@@@")
 
-    println("********** 1 *********")
     println(names[0])
     println(names[1])
     println(names[2])

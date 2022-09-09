@@ -5,7 +5,7 @@ fun main() {
     do{
         println("Hello World!")
         ctr++ //update
-    //condition
+        //condition
     }while(ctr <=5)
 
 }
