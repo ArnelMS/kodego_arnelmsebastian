@@ -5,14 +5,33 @@ fun main() {
 
         print("Please enter first word: ")
         var string1: String = readln().uppercase()
+        var string1length = string1.length
 
-        print("Please enter first word: ")
+        var ctr1: Int = 0
+        while (ctr1 <= string1length - 1) {
+                println(string1[ctr1])
+
+                ctr1++
+        }
+
+        print("Please enter second word: ")
         var string2: String = readln().uppercase()
+        var string2length = string2.length
+
+        var ctr2: Int = 0
+        while (ctr2 <= string2length - 1) {
+                println(string2[ctr2])
+
+                ctr2++
+
+
+        }
 
         println()
-        println("Your first word is $string1")
-        println("Your first word is $string2")
-
-        println()
+        println("Your words are $string1 & $string2")
         println("---Line ends here---")
+
 }
+
+// *** FUNCTIONS ***
+
