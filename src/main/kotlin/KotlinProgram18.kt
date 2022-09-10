@@ -1,21 +1,21 @@
 fun main(){
     var map = mapOf(1 to "Peter", 2 to "Paul", 3 to "Mary")
 
-//    println(map)
-//
-//    //getting value from map
-//    println(map[1])
-//    println(map.get(2))
-//
-//    //traversing keys
-//    for (key in map.keys) {
-//        print(key)
-//    }
-//    //traversing values
-//    for (value in map.keys){
-//        print(value)
-//    }
+    println(map)
 
+    //getting value from map
+    println(map[1])
+    println(map.get(2))
+
+    //traversing keys
+    for (key in map.keys) {
+        print(key)
+    }
+    //traversing values
+    for (value in map.keys){
+        print(value)
+    }
+    println(    )
     println("*************************************************")
 
     //mutable mapOf
