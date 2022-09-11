@@ -3,7 +3,7 @@ fun main(){
     var numbers = mutableListOf<Int>()
 
     var ctr : Int = 0
-    while (ctr < 20) {
+    while (ctr < 5) {
         print("Enter number ${ctr +1}:")
         var input = readln().toInt()
         numbers.add(input)
@@ -13,6 +13,6 @@ fun main(){
     // display mutable list
     println("Displaying List")
     for (value in numbers){
-        println(value)
+        print(value)
     }
 }

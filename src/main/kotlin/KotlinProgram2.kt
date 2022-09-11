@@ -32,6 +32,7 @@ fun main() {
     //concatenate
     println(string1 + " " + string2)
     println()
+
     //substring
     println(string1.substring(11, 14))
 

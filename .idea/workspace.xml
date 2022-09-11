@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eacb67c-fe45-41f1-85b7-4d052798a934" name="Changes" comment="" />
+    <list default="true" id="9eacb67c-fe45-41f1-85b7-4d052798a934" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram21-1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/ams_testfile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram17.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram17.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram20.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram20.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram21.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram21.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch10.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch11.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch11.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch12.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch12.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch6_Activity01_D.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch6_Activity01_D.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Sratch9.kt_Palindrone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Sratch9.kt_Palindrone.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/ams_scratch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/ams_scratch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/activity01_f.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/activity01_f.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2EAKLZcLeWrYZrVTP7riOiVKy5R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,9 +45,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/arnel/Desktop/KODEGO/projects/kodego_project/src/main/kotlin",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\arnel\Desktop\KODEGO\projects\kodego_project\src\main\kotlin" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,5 +68,11 @@
       <updated>1662032894008</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kodego_project$Ams_scratchKt.ic" NAME="Ams_scratchKt Coverage Results" MODIFIED="1662659147579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/kodego_project$KotlinProgram8Kt.ic" NAME="KotlinProgram8Kt Coverage Results" MODIFIED="1662454274261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/kodego_project$Scratch3Kt.ic" NAME="Scratch3Kt Coverage Results" MODIFIED="1662537179693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/kodego_project$Scratch2Kt.ic" NAME="Scratch2Kt Coverage Results" MODIFIED="1662536382255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

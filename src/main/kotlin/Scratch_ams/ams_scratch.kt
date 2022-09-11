@@ -1,40 +1,57 @@
-fun main() {
+fun main(){
 
-    var string1: String = "Dennis and Edna sinned"
-    var length: Int = string1.length
-    println("Your word is: $string1")
-    var reverse: Boolean = true
+        var result: Int = cube(2)
+        println(result)
 
-    while (reverse) {
-        println(length)
-
-        if (length != length) {
-            for (letters in  0..length)
-                length++
-            print(string1[string1.length - 1])
-        }
+        println(add(5,2))
 
 
-//        } else if (length >= 0) {
-//            println("Please answer with YES or NO only")
-//            println()
 
-//        } else if (length == "NO") {
-//            print("Sub-total is $reverse")
-//            println()
-////    while()
-//            for (letters in 0..length)
-//                print(string1[string1.length - 1])
-//    if (string1[0] <= length) {
-//    } else if (length == 0) {
-//    } else {
-//            println()
-//            println("Invalid choice")
-//              if(length2 < length )
-//        println()
-//        for (letters in index0..length){
-//        print(letters)
+//with return, One parameter
+fun cube(number:Int):Int{
+        return number + number + number
+
+}
+
+//with return, Two parameter
+fun add(number1: Int, number2: Int):Int {
+        println("Welcome to the add function!")
+        return number1 + number2
+}
+}
 
 
-        }
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        var names = ArrayList<Int>()
+//
+//        //ADD ELEMENTS
+//        names.add(1) // index 0
+//        names.add(2) // index 1
+//
+//        //DISPLAY NAMES[0]
+//        println(names[0])
+//        println(names[1])
+//
+//        //REMOVE ELEMENTS
+//        names.removeAt(0)//Peter move to -> index 0
+//
+//        //DISPLAY NAMES[0]
+//        println("***********************************")
+//        println(names[0])
+//
+//
+//
+//
+//}

@@ -1,35 +1,27 @@
+//Using Activity 01 - B and Implement a process where someone can borrow a book.
 fun main(){
 
-    println("Please enter a word:")
-    var string1: String = "Dennis and Edna sinned"
-    println("Your word is $string1")
+    print("Enter FirstName:  ")
+    var firstName : String = readln().toString().uppercase()
+    print("Enter LastName:  ")
+    var lastName : String = readln().toString().uppercase()
 
-    var length: Int = string1.length
-    println(length)
+    print("Enter Mobile#:  ")
+    var mobile : String = readln()
 
-    while (length < string1.length){
-        if (length < length)
-            println(string1[length])
-        length--
+    print("Enter Email:  ")
+    var email : String = readln().toString()
 
-    println("ok")}
+    print("Enter Student#:  ")
+    var studentNumber : Int = readln().toInt()
+
+    println("********************************")
+    println("Name:      $firstName $lastName")
+    println("Mobile:    $mobile")
+    println("Email:     $email")
+    println("Student#:  $studentNumber")
+    println("********************************")
 
 
 
-
-
-        //if(length < string1.length)
-//            println(string1[length])
-//            string1++
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 }
-
