@@ -3,7 +3,7 @@ fun main() {
 //Activity 01 - F
 //Create an application that will accept 1 string. Your application will print “Palindrome” if the string is a palindrome.
     println("Please enter a word:")
-    var string1: String = "dennis sinned"
+    var string1: String = readln().toString()
     println("Your word is:")
     println(string1)
 
