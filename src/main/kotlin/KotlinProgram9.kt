@@ -1,11 +1,11 @@
 fun main() {
     //do while
     //init
-    var ctr: Int = 5
+    var ctr: Int = 0
     do{
         println("Hello World!")
         ctr++ //update
         //condition
-    }while(ctr <=5)
+    }while(ctr <=100)
 
 }

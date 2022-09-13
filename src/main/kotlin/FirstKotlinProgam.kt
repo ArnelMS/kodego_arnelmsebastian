@@ -14,4 +14,13 @@ Filename: FirstKotlinProgman.kt
 
     var sum : Int = number1 + number2
     println("The sum is $sum")
+
+
+    lateinit var name: String
+    lateinit var age: String
+    lateinit var address: String
+
+    println("Enter name")
+    name = readln()
+    println(name)
 }
