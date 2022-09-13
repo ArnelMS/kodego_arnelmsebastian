@@ -1,4 +1,4 @@
-fun main(){
+fun main() {
     // Can also be used as String
     var numbers = mutableListOf<Int>()
 
@@ -14,5 +14,17 @@ fun main(){
     println("Displaying List")
     for (value in numbers){
         print(value)
+    }
+    println()
+    println("*************************************")
+    var word: String = "hello"
+    println(word)
+    var wordSet = mutableSetOf<Char>()
+    for (letter in word) {
+        for (letter2 in word) {
+            if (letter == letter2) {
+
+            }
+        }
     }
 }
