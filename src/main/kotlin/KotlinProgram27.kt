@@ -1,33 +1,45 @@
 fun main() {
-    var joe = Person("Joe", 21) // Instantiation
-    println("***********")
-    println("${joe.name}'s curretn age is ${joe.age}")
-    println("After 1 year....")
-    joe.ageUp()
-    println("${joe.name}'s current age is ${joe.age}")
+    var anne = Person("Anne")
+    anne.age = 25
+    anne.displayAge()
+
 }
 //
 
-class Person (var name: String, var age:Int){ // constructor
+class Person (var name: String, var age:Int) { // constructor > Primary constructor
 
-    init{
+    init { // Initializer - once class is called will start init immediately.
         println("Object Created")
-        println("name is $name")
-        println("name is $age")
+        println("Name is $name")
+        println("Age is $age")
+
     }
 
-    // Behaviors == Verbs
-    fun walk(){
+    // Secondary constructors
+        constructor(name:String):this("Arnel", 43){}
+        constructor(age:Int):this("default_name",age){}
+
+//        println("Object Created")
+//        println("name is $name")
+//        println("name is $age")
+    fun walk() {
         println("A person walks")
     }
-    fun eat(){
+
+    fun eat() {
         println("A person eats")
     }
-    fun ageUp(){
+    fun displayAge(){
+        //var age : Int = 7
+        println(age)
+    }
+
+    fun ageUp() {
         age++
     }
 
-
+    //Global Variable - know on all (fun main, fun, etc...
+    // this. refers to the Global variable that have the same variable on local.
 }
 
 

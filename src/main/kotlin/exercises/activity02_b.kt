@@ -132,30 +132,9 @@ fun main() {
             } else if (options.toInt() == 7)
                 println("Thank You")
 
-                break
+            break
 
         }while (select <= 6)
 
     }while (select <= 6)
 }
-
-//fun bookstocks(){
-//    booklists.add("Harry Potter, Fantasy")
-
-
-
-//    var menu: String = "| OPTIONS |"
-//    var option1: String = "[1] Student List"
-//    var option2: String = "[2] New student"
-//    var option3: String = "[3] List of books"
-//    var option4: String = "[4] Borrow a book"
-//    var option5: String = "[5] Return a book"
-//    var option6: String = "[6] Exit"
-////
-
-////    //
-////    //        booklists.add("$bookTitle  |  $bookCategory  |  $bookCode")
-////    //        println(booklists)
-////    //    }
-////
-////

@@ -9,7 +9,7 @@ fun main(){
     println(names[1])
 
     //REMOVE ELEMENTS
-    names.removeAt(0)//Peter move to -> index 0
+    names.removeAt(0)//Peter will be moved to -> index 0
 
     //DISPLAY NAMES[0]
     println("***********************************")

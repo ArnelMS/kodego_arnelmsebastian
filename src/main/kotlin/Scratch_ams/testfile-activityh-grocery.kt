@@ -1,5 +1,3 @@
-import java.security.KeyStore.TrustedCertificateEntry
-
 fun main() {
 //Activity 01 - H
 // Using Activity 01 - B and Implement a process where someone can borrow a book.
@@ -117,10 +115,12 @@ fun main() {
                         break
                         ctr2++
 
-                    } else if (options.toInt() == 7)
+                        } else if (options.toInt() == 7)
+                        break
+                        ctr--
 
-                   ctr2++
         }while (ctr2 <= 50)
+
 
         ctr++
     }while (ctr <= 50)

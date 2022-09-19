@@ -8,9 +8,21 @@
 
 fun main(){
 
-    var myPhone = mobilePhone("Samsung","Note 10","Gray", 10000,8)
+////    var myPhone = MobilePhone("Samsung","Note 10","Gray", 10000,8)
+////        var Oppo = MobilePhone(5000)
+////
+////    println(myPhone)
+//    print("Please enter brand: ")
+//    var myPhone = MobilePhone (readln()) // brand
+//    println("---------------------")
+//
+//    print("Please enter price: ")
+//    var myPhonePrice = MobilePhone (readln().toInt()) // price
+//    println("---------------------")
+//
+    var myPhone = MobilePhone ("gray", 32)
+    println("---------------------")
 
-    println(myPhone)
     println("----- Special features -----")
     myPhone.chargingtime()
     myPhone.size()
@@ -21,7 +33,7 @@ fun main(){
 
 // CLASS
 
-class mobilePhone(var brand: String, var modelName: String, var color: String, var price: Int, var megapixels: Int) { // constructor > Primary constructor
+class MobilePhone(var brand: String, var modelName: String, var color: String, var price: Int, var megapixels: Int) { // constructor > Primary constructor
 
     init { // Initializer - once class is called will start init immediately.
         println("Your Mobile Phone Specs are:")
@@ -32,9 +44,10 @@ class mobilePhone(var brand: String, var modelName: String, var color: String, v
         println("Camera:$megapixels megapixels")
     }
 
-//            // SECONDARY CONSTRUCTOR
-//            constructor(brand: String) : this(brand, color = "White") {}
-//            constructor(modelName: String) : this(color = "White") {}
+// SECONDARY CONSTRUCTOR
+    constructor(brand: String):this(brand,"A3", "Gray", 5000, 32) {}
+    constructor(price: Int) : this("Oppo", "B10", "white", price, 16) {}
+    constructor(brand: String, megapixels: Int) : this(brand, "P40", "Gray" , 10000, megapixels) {}
 
             // BEHAVIORS
             fun chargingtime() {
@@ -59,26 +72,3 @@ class mobilePhone(var brand: String, var modelName: String, var color: String, v
             }
 }
 
-//
-//        // Secondary constructors
-//        constructor(name: String) : this(name, 0)
-//        constructor(age: Int) : this("default_name", age)
-//        println("Object Created")
-//        println("name is $name")
-//        println("name is $age")
-//    }
-//    fun walk() {
-//        println("A person walks")
-//    }
-//
-//    fun eat() {
-//        println("A person eats")
-//    }
-//    fun displayAge(){
-//        //var age : Int = 7
-//        println(age)
-//    }
-//
-//    fun ageUp() {
-//        age++
-//    }
