@@ -5,27 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9eacb67c-fe45-41f1-85b7-4d052798a934" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram21-1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/ams_testfile.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram34.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/ScratchFile2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/ScratchFile_MaxNumber.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Stratch_StudentList_Class.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/oop/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/oop/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/oop/Student.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/activity02_d.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/practice_activities/practiceactivity11.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/DiscountActivityTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/NumberComparatorTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram17.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram17.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram20.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram20.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram21.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram21.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram5.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch10.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch11.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch11.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch12.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch12.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch6_Activity01_D.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratch6_Activity01_D.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Sratch9.kt_Palindrone.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Sratch9.kt_Palindrone.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/ams_scratch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/ams_scratch.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/activity01_f.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/activity01_f.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodego_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kodego_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram18.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram18.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram23.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram23.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram27.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram27.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/ScratchFile_Library_Program.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/ScratchFile_Library_Program.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratchfile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratchfile.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratchfile000.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Scratchfile000.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Scratch_ams/Stratchfile02.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/activity02_b.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/activity02_b.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,21 +56,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/arnel/Desktop/KODEGO/projects/kodego_project/src/main/kotlin",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arnel/Desktop/KODEGO/projects/kodego_project/src/main/kotlin/exercises&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\arnel\Desktop\KODEGO\projects\kodego_project\src\main\kotlin\exercises" />
       <recent name="C:\Users\arnel\Desktop\KODEGO\projects\kodego_project\src\main\kotlin" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.oop" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="Scratch_ams" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DiscountActivityTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodego_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DiscountActivityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscountActivityTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodego_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DiscountActivityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscountActivityTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodego_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DiscountActivityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscountActivityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodego_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DiscountActivityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscountActivityTest.ifNegativeValueisEnteredReturnNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodego_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DiscountActivityTest" />
+      <option name="METHOD_NAME" value="ifNegativeValueisEnteredReturnNegative" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DiscountActivityTest" />
+        <item itemvalue="JUnit.DiscountActivityTest.ifNegativeValueisEnteredReturnNegative" />
+        <item itemvalue="JUnit.DiscountActivityTest (2)" />
+        <item itemvalue="JUnit.DiscountActivityTest (1)" />
+        <item itemvalue="JUnit.DiscountActivityTest (5)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,6 +157,36 @@
       <updated>1662032894008</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/KotlinProgram3.kt</url>
+          <properties method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/KotlinProgram27.kt</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kodego_project$Ams_scratchKt.ic" NAME="Ams_scratchKt Coverage Results" MODIFIED="1662659147579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

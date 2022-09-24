@@ -1,152 +1,54 @@
-fun main() {
-    fun primeNumber() {
+fun main () {
+    println("Please enter product name: ")
+    var itemName: String = readln().toString()
+    println("Please enter price: ")
+    var price: Double = readln().toDouble()
 
-        val number = 13
-        println("IsPrimeNumber($number) = ${isPrime(number)}")
-    }
+    var checkDiscount = DiscountActivity(itemName,price)
+    println(checkDiscount.getDiscountedCost(0.00))
 }
-    fun isPrime(number: Int): Boolean {
-        var result = true
-        for (i in 2 until number)
-            if (number % i == 0) {
-                result = false
-                break
-            }
-        return result
+//CLASS
+class DiscountActivity(var itemName: String, var price:Double) {
+
+
+    fun getDiscountedCost(price: Double):Double {
+
+        var price = this.price
+        var zeroDiscount: Double = 0.0
+        var discount5: Double = 0.05
+        var discount10: Double = 0.10
+        var discount15: Double = 0.15
+        var discount20: Double = 0.20
+
+
+        if ((price >= 0.00) && (price <= 10000.99)) {
+            println("No discount")
+            return 0.0
+
+        } else if ((price >= 10001.00) && (price <= 20000.99)) {
+            var discount: Double = price * discount5
+            var discount1: Double = price - discount
+            println("your discount is $discount you will only pay $discount1")
+            return discount
+
+        } else if ((price >= 20001.00) && (price <= 50000.99)) {
+            var discount: Double = price * discount10
+            var discount1: Double = price - discount
+            println("your discount is $discount you will only pay $discount1")
+            return discount
+        } else if ((price >= 50001.00) && (price <= 100000.99)) {
+            var discount: Double = price * discount15
+            var discount1: Double = price - discount
+            println("your discount is $discount you will only pay $discount1")
+            return discount
+        } else if ((price >= 100001.99)) {
+            var discount: Double = this.price * discount20
+            var discount1: Double = price - discount
+            println("your discount is $discount you will only pay $discount1")
+            return discount
+        }
+
+        return 0.0
     }
 
-//**************************
-//    val names = arrayOf("Jim", "John", "Jenny", "Jamie")
-//    names.forEachIndexed { index, s ->
-//        println("index: $index:, element: $s")
-//    }
-//}
-//******************************
-//}
-//
-//
-//fun main() {
-////Activity 01 - H
-//// Using Activity 01 - B and Implement a process where someone can borrow a book.
-//    var studentsList = ArrayList<String>()
-//    var student_borrow = ArrayList<String>()
-//    var booklists = ArrayList<String>()
-//    var menu: String = "| OPTIONS |"
-//    var option1: String = "[1] Student List"
-//    var option2: String = "[2] New student"
-//    var option3: String = "[3] List of books"
-//    var option4: String = "[4] Borrow a book"
-//    var option5: String = "[5] Return a book"
-//    var option6: String = "[6] Exit"
-//
-//    println("| OPTIONS |")
-//    println("[1] Student List")
-//    println("[2] New student")
-//    println("[3] List of books")
-//    println("[4] Borrow a book")
-//    println("[5] Return a book")
-//    println("[6] Exit")
-//    print("Select Options: ")
-//    var options: Int = readln().toInt()
-//
-//    when (options) {
-//        1 -> println("$studentsList")
-//        2 -> println("$option2 ")
-//        3 -> println("$option3")
-//        4 -> println("$option4")
-//        5 -> println("$option5")
-//        6 -> println("$option6")
-//    }
-//
-//
-//    //options
-//    if (options.toInt() == 1) {
-//        println("[1] Student List")
-//        println("$studentsList")
-//    }
-//    if (options.toInt() == 2) {
-//        println("[2] New student")
-//        println("Please Complete Details")
-//
-//        print("Enter Firstname  : ")
-//        var firstName = readln().toString()
-//        print("Enter Lastname   : ")
-//        var lastName = readln().toString()
-//        print("Enter Mobile#    : ")
-//        var mobile = readln().toString()
-//        print("Enter Email      : ")
-//        var email = readln().toString()
-//
-//        studentsList.add("$firstName $lastName | $mobile  |  $email")
-//
-//    }
-//    if (options.toInt() == 3) {
-//            println("[3] List of books")
-//            println(booklists)
-//
-//    }
-//    if (options.toInt() == 4) {
-//            println("[4] Borrow a book")
-//            println("Enter Firstname  : ")
-//            var firstName = readln().toString()
-//            println("Enter Lastname   : ")
-//            var lastName = readln().toString()
-//            println("Book Title       : ")
-//            var booktitle = readln().toString()
-//            println("Date Borrowed    : ")
-//            var dateborrowed = readln().toString()
-//
-//            student_borrow.add("$firstName $lastName    |  $booktitle   |   $dateborrowed")
-//            println(student_borrow)
-//
-//
-//    }
-//    if (options.toInt() == 5) {
-//            println("[5] Return a book")
-//            println("Enter Firstname  : ")
-//            var firstName = readln().toString()
-//            println("Enter Lastname   : ")
-//            var lastName = readln().toString()
-//            println("Book Title       : ")
-//            var booktitle = readln().toString()
-//            println("Date Borrowed    : ")
-//            var dateborrowed = readln().toString()
-//
-//            student_borrow.remove("$firstName $lastName |   $booktitle    |   $dateborrowed")
-//            println(student_borrow)
-//
-//    }
-//    if (options.toInt() == 6) {
-//            println("~ Thank You ~")
-//    }
-//}
-////    } else if (options.toInt() != 0) {
-////        var counter: Int = 0
-////        while (counter < 5) {
-////            println("Enter Options: $options")
-//
-////        }
-////                    //Display new array values'
-////                var ctr2: Int = 0
-////                while (ctr2 < studentsList.size) {
-////                println(studentsList[ctr2])
-////
-////                ctr2++
-//
-////        println(studentsList)
-//
-//
-//// BOOK DETAILS
-////
-////        print("Enter Book Title : Book1")
-////        var bookTitle = readln().toString()
-////        print("Enter Categoory  : Magic")
-////        var bookCategory = readln().toString()
-////        print("Enter Book Code  : 123456789")
-////        var bookCode = readln().toString()
-////
-////        booklists.add("$bookTitle  |  $bookCategory  |  $bookCode")
-////        println(booklists)
-////    }
-//
-//
+}

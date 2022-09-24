@@ -17,5 +17,6 @@ fun cube(number:Int):Int{
 //with return, Two parameter
 fun add(number1: Int, number2: Int):Int{
     println("Welcome to the add function!")
+    println("Welcome to the add function!")
     return number1+number2
 }

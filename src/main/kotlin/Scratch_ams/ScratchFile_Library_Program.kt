@@ -1,29 +1,53 @@
 fun main(){
+//Activity 02 - D
+        print("Please Enter amount: ")
+        var amount: Int = readln().toInt()
+        var condition: Boolean = true
 
-    var myLibrary = BookList("Harry Potter", "Fantasy")
+        while (condition){
+            print("Do you want to add another amount? ")
+            var answer: String = readln().uppercase()
+
+            if (answer == "YES") {
+                print("Enter new amount: ")
+                var newamount: Int = readln().toInt()
+                amount = amount + newamount
+
+                println("Sub-total is $amount")
+                println()
+
+            } else if (answer != "NO") {
+                println("Please answer with YES or NO only")
+                println()
+
+            } else if (answer == "NO") {
+                print("Sub-total is $amount")
+                println()
+
+                println("Divide by how many? ")
+                var divisor: Int = readln().toInt()
+
+                var total: Int = amount / divisor
+                println("Total :  $total")
 
 
-//    println("$BookList")
+                println()
+                println("Thank you & Have a great day!!!")
+                break
+            }
+        }
 
-
-}
-
-
-// Class
-class BookList (var bookTitle:String, var category:String) {
-
-    init {
-        println ("********* OPTIONS *********")
-        println("[1] Student List")
-        println("[2] New student")
-        println("[3] List of books")
-        println("[4] Add a book")
-        println("[5] Borrow a book")
-        println("[6] Return a book")
-        println("[7] Exit")
-        println("****************************")
-        print("Select Options: ")
     }
 
 
-}
+
+// CLASS
+
+
+//BEHAVIORS (FUNCTIONS
+
+
+//CONSTRUCTORS
+
+
+//SECONDARY CONSTRACTORS

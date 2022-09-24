@@ -34,10 +34,7 @@ fun main() {
         print("Select Options: ")
         var options: Int = readln().toInt()
 
-        //    var alloptions: String = ("$menu $option1 $option2 $option3 $option4 $option5 $option6 $options")
-        //    println("~ Thank you ~")
-
-        //options
+       //options
         var select: Int = options
         do {
             // Student list and students with borrowed books

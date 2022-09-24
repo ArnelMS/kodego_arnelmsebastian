@@ -2,6 +2,7 @@ fun main() {
     var anne = Person("Anne")
     anne.age = 25
     anne.displayAge()
+    anne.ageUp()
 
 }
 //
@@ -36,6 +37,7 @@ class Person (var name: String, var age:Int) { // constructor > Primary construc
 
     fun ageUp() {
         age++
+        println(age)
     }
 
     //Global Variable - know on all (fun main, fun, etc...
@@ -48,7 +50,7 @@ class Person (var name: String, var age:Int) { // constructor > Primary construc
 // FIRST SAMPLE PRESENTATION**********************************************************************
 //fun main(){
 //    // Sample 1
-//    var joe = Person()
+//    var joe = com.oop.Person()
 ////    println(joe.name)
 //
 //    joe.name = "Joe"  // replace attribute "John" to "Joe"
@@ -58,14 +60,14 @@ class Person (var name: String, var age:Int) { // constructor > Primary construc
 //
 //
 //    // Sample 2
-//    var anna = Person()
+//    var anna = com.oop.Person()
 //    anna.name = "Anna"
 //    println(anna.name)
 //    joe.walk()
 //    joe.eat()
 //
 //    // Sample 3
-//    var mark = Person()
+//    var mark = com.oop.Person()
 //    mark.name = "Mark"
 //    println(mark.name)
 //    joe.walk()
@@ -73,7 +75,7 @@ class Person (var name: String, var age:Int) { // constructor > Primary construc
 //
 //}
 //
-//class Person {
+//class com.oop.Person {
 //    // Attributes == Nouns
 //    var name : String = "John" // Should always have a Value
 //    var age : Int = 21

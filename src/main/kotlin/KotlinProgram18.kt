@@ -22,7 +22,7 @@ fun main(){
     println()
     var map2 = mutableMapOf<Int,String>()
     map2.put(2, "John")
-    map2.remove(2)
+//    map2.remove(2)
     println(map2)
 
 //    a -> readline
