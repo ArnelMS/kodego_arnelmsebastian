@@ -10,47 +10,47 @@ fun main() {
     var bookTitle: String = readln()
     println("Item Name: $bookTitle")
 
-    var book1: String = "Baby Bear Sees Blue"
-    var type1: String = "Picture Books"
+    var book1: String = "Harry Potter"
+    var type1: String = "Fantasy"
     var bookcode1: Int = 2022001
     var available1: Char = 'Y'
     var quantity1: Int = 2
 
-    var book2: String = "Happy Like Soccer"
-    var type2: String = "Picture Books"
+    var book2: String = "Math 101"
+    var type2: String = "Math"
     var bookcode2: Int = 2022005
     var available2: Char = 'Y'
     var quantity2: Int = 2
 
-    var book3: String = "The Goldilocks Variations "
-    var type3: String = "Folk and Fairytales"
+    var book3: String = "English 101"
+    var type3: String = "English"
     var bookcode3: Int = 2022035
     var available3: Char = 'Y'
     var quantity3: Int = 2
 
-    var book4: String = "National Geographic Book of Animal Poetry"
-    var type4: String = "Poetry and Song"
+    var book4: String = "Accounting 101"
+    var type4: String = "Accounting"
     var bookcode4: Int = 2022043
     var available4: Char = 'Y'
     var quantity4: Int = 2
 
-    var book5: String = "A Boy and a Bear in a Boat"
-    var type5: String = "Stories for Older Readers"
-    var bookcode5: Int = 2022084
-    var available5: Char = 'Y'
-    var quantity5: Int = 2
-
-    var book6: String = "A Black Hole Is Not a Hole"
-    var type6: String = "Non-fiction"
-    var bookcode6: Int = 2022104
-    var available6: Char = 'Y'
-    var quantity6: Int = 2
-
-    var book7: String = "The Human Body Factory"
-    var type7: String = "Non-fiction"
-    var bookcode7: Int = 2022105
-    var available7: Char = 'Y'
-    var quantity7: Int = 2
+//    var book5: String = "A Boy and a Bear in a Boat"
+//    var type5: String = "Stories for Older Readers"
+//    var bookcode5: Int = 2022084
+//    var available5: Char = 'Y'
+//    var quantity5: Int = 2
+//
+//    var book6: String = "A Black Hole Is Not a Hole"
+//    var type6: String = "Non-fiction"
+//    var bookcode6: Int = 2022104
+//    var available6: Char = 'Y'
+//    var quantity6: Int = 2
+//
+//    var book7: String = "The Human Body Factory"
+//    var type7: String = "Non-fiction"
+//    var bookcode7: Int = 2022105
+//    var available7: Char = 'Y'
+//    var quantity7: Int = 2
 
     if (bookTitle == book1) {
         println("Book Title:$book1")
@@ -84,37 +84,37 @@ fun main() {
         println("Available: $available4")
     }
 
-    if (bookTitle == book5) {
-        println("Book Title:$book5")
-        println("Book Type: $type5")
-        println("Bookcode:  $bookcode5")
-        println("Quantity:  $quantity5")
-        println("Available: $available5")
-    }
-    if (bookTitle == book6) {
-        println("Book Title:$book6")
-        println("Book Type: $type6")
-        println("Bookcode:  $bookcode6")
-        println("Quantity:  $quantity6")
-        println("Available: $available6")
-    }
-    if (bookTitle == book7) {
-        println("Book Title:$book7")
-        println("Book Type: $type7")
-        println("Bookcode:  $bookcode7")
-        println("Quantity:  $quantity7")
-        println("Available: $available7")
-    }
-    if (bookTitle == "list") {
-       println("Book Title: $book1")
-       println("Book Title: $book2")
-       println("Book Title: $book3")
-       println("Book Title: $book4")
-       println("Book Title: $book5")
-       println("Book Title: $book6")
-       println("Book Title: $book7")
+//    if (bookTitle == book5) {
+//        println("Book Title:$book5")
+//        println("Book Type: $type5")
+//        println("Bookcode:  $bookcode5")
+//        println("Quantity:  $quantity5")
+//        println("Available: $available5")
+//    }
+//    if (bookTitle == book6) {
+//        println("Book Title:$book6")
+//        println("Book Type: $type6")
+//        println("Bookcode:  $bookcode6")
+//        println("Quantity:  $quantity6")
+//        println("Available: $available6")
+//    }
+//    if (bookTitle == book7) {
+//        println("Book Title:$book7")
+//        println("Book Type: $type7")
+//        println("Bookcode:  $bookcode7")
+//        println("Quantity:  $quantity7")
+//        println("Available: $available7")
+//    }
+//    if (bookTitle == "list") {
+//       println("Book Title: $book1")
+//       println("Book Title: $book2")
+//       println("Book Title: $book3")
+//       println("Book Title: $book4")
+//       println("Book Title: $book5")
+//       println("Book Title: $book6")
+//       println("Book Title: $book7")
         }
-    }
+
 //    println(Grocery1)
 //    println(Grocery2)
 //    println(Grocery3)

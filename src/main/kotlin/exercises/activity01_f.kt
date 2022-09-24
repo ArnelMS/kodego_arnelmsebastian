@@ -1,5 +1,4 @@
 fun main() {
-
 //Activity 01 - F
 //Create an application that will accept 1 string. Your application will print “Palindrome” if the string is a palindrome.
     println("Please enter a word:")
@@ -10,7 +9,7 @@ fun main() {
     // Reversed
     println()
     println("If word is reversed:")
-    println(string1.reversed())
+    println(string1.reversed().toString())
 
     // Reversed
     var length: Int = string1.length
@@ -18,9 +17,9 @@ fun main() {
 
     // Condition
     println()
-    if (string1 == string1.reversed()){
-                println("Your word is PALINDROME")
-    }else if(string1 != string1.reversed())
+    if (string1 == string1.reversed().toString()) {
+        println("Your word is a PALINDROME")
+    } else if (string1 != string1.reversed())
         println("Your word is NOT a Palindrone")
 
     println("Thank You")
