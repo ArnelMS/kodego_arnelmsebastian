@@ -8,7 +8,6 @@ fun main() {
 //After the input is done, the user will be asked “Divide the value by how many?”.
 // It will only accept an Integer as input.
 //The total of the first input will be divided by the second input.
-    try {
         print("Please Enter amount: ")
         var amount: Double = readln().toDouble()
         var condition: Boolean = true
@@ -45,8 +44,4 @@ fun main() {
                 break
             }
         }
-
-    }catch(e:Exception){
-        println("Please enter digit only!")
-    }
 }

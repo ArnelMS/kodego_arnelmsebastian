@@ -1,10 +1,13 @@
 package com.oop
 
 fun main(){
-    var joeStudent = Student(123456)
-    println(joeStudent.name)
-    joeStudent.displayStudentId()
-    joeStudent.displayName()
+
+    var manager = Manager()
+    manager.computeBonus()
+    //1000 + 10%
+
+    var staff = Staff()
+    staff.computeBonus()
 
 }
 
@@ -12,6 +15,22 @@ fun main(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+//--------------------------------09-27-2022
+//var joePerson = Student("Joe", 23)
+//joePerson.name = "Joe"
+//println(joePerson.name)
+//joePerson.studentId=101
+//joePerson.displayStudentId()
 
 //--------------------------------
 //var joePerson = Person()

@@ -5,7 +5,11 @@ fun main() {
     anne.ageUp()
 
 }
-//
+// Abstraction
+// Encapsulation - Gateway... can not be access directly.
+            // using
+//                    get(){return field}
+//                    set(value){field = value}
 
 class Person (var name: String, var age:Int) { // constructor > Primary constructor
 

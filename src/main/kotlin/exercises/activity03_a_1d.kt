@@ -4,11 +4,12 @@ import java.lang.Exception
 //Add try-catch to Activity 01 - D, Activity 01 - E, Activity 01 - F
 
 fun main() {
+    var amount: Double = 0.00
+    var condition: Boolean = true
 
     try {
         print("Please Enter amount: ")
-        var amount: Double = readln().toDouble()
-        var condition: Boolean = true
+        amount = readln().toDouble()
 
         while (condition) {
             print("Do you want to add another amount? ")

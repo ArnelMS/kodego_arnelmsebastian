@@ -1,17 +1,25 @@
 package com.oop
 
-class Student (var _studentId:Int) : Person(){
+class Student (name: String, age: Int) : Person(name, age) {
 
-    var studentId: Int = _studentId
+    var studentId: Int = 0
 
-    fun displayStudentId(){
+    fun displayStudentId() {
         println(studentId)
     }
-    override fun displayName(){
+
+    // Overriding -> "should be the same name"
+    // -> function should have be "Open"
+    override fun displayName() {
         super.displayName()
         println("displaying function displayName from Student class")
+
     }
 
+    override fun displayAge() {
+        println("displaying function displayAge from Student class")
+        super.displayAge()
+    }
 }
 
 //polymorphism
