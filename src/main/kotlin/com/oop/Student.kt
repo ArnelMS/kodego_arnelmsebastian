@@ -16,10 +16,10 @@ class Student (name: String, age: Int) : Person(name, age) {
 
     }
 
-    override fun displayAge() {
-        println("displaying function displayAge from Student class")
-        super.displayAge()
-    }
+//    override fun displayAge() {
+//        println("displaying function displayAge from Student class")
+//        super.displayAge()
+//    }
 }
 
 //polymorphism

@@ -2,12 +2,10 @@ package com.oop
 
 fun main(){
 
-    var manager = Manager()
-    manager.computeBonus()
-    //1000 + 10%
-
-    var staff = Staff()
-    staff.computeBonus()
+var personObject = Person("Peter", 18)
+    personObject.displayName()
+    personObject.displayName("Joe")
+    personObject.displayName(numberOfTimes = 8)
 
 }
 

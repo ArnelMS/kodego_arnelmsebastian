@@ -11,6 +11,7 @@ fun main(){
     for (key in map.keys) {
         print(key)
     }
+    println()
     //traversing values
     for (value in map.keys){
         print(value)
