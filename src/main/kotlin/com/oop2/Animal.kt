@@ -1,7 +1,7 @@
 package com.oop2
 
 abstract class Animal {
-    //abstract class
+    //abstract class (reversed is Concrete Class)
     //it can have abstract functions
     //abstract functions are functions without a body/implementation
     //only abstract classes can have abstract functions

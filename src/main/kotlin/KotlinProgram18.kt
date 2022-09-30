@@ -2,7 +2,8 @@ fun main(){
     var map = mapOf(1 to "Peter", 2 to "Paul", 3 to "Mary")
 
     println(map)
-
+    println(map.size)
+    println(map.count()+1)
     //getting value from map
     println(map[1])
     println(map.get(2))
