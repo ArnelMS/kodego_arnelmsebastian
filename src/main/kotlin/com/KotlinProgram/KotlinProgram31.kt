@@ -9,7 +9,7 @@ fun main() {
 }
 
 //Exception
-//- soumething that disrupts a normal flow of your code
+//- something that disrupts a normal flow of your code
 //recoverable - you can handle exceptions
 
 //Error
