@@ -1,3 +1,5 @@
+package com.KotlinProgram
+
 fun main() {
     var numComparator = NumberComparator()
     println(numComparator.getMaxNumber(3, 2, 6))

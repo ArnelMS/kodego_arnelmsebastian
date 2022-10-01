@@ -1,3 +1,5 @@
+package com.KotlinProgram
+
 fun main() {
 
     var myObject = MyClass1("Hello World")

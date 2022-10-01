@@ -1,3 +1,5 @@
+package com.KotlinProgram
+
 fun main() {
     var anne = Person("Anne")
     anne.age = 25

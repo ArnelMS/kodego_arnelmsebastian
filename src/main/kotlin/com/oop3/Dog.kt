@@ -1,6 +1,6 @@
 package com.oop3
 
-class Dog:Mammal(), Animal, Pet{
+class Dog :Animal{
     override fun walk(){
         println("Dog walks")
     }
